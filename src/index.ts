@@ -10,7 +10,7 @@ app.use(express.json());
 
 // routes
 app.get('/', (req, res) => {
-    res.send("Hello from My API")
+    res.send(`<h1>Hello from Dev Patel add /users in url</h1>`)
 })
 
 let users = [
